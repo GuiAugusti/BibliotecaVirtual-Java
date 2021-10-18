@@ -9,6 +9,6 @@ public class Comedia extends Livros
 	public Comedia(String titulo, int pags, String autor) 
 	{
 		super(titulo, pags, autor);
-		this.genero = "Comédia";
+		this.genero = "ComÃ©dia";
 	}
 }
