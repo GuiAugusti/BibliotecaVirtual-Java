@@ -18,10 +18,10 @@ public abstract class Livros implements Serializable {
 	  public String toString()
 	  {
 	    String livro = "";
-	    livro += "Título: " + this.titulo + "\n";
+	    livro += "TÃ­tulo: " + this.titulo + "\n";
 	    livro += "Autor: " + this.autor + "\n";
-	    livro += "Número de Páginas: " + this.pags + "\n";
-	    livro += "Gênero: " + this.genero + "\n";
+	    livro += "NÃºmero de PÃ¡ginas: " + this.pags + "\n";
+	    livro += "GÃªnero: " + this.genero + "\n";
 	    return livro;
 	  }
 	  
