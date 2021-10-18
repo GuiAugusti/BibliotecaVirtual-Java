@@ -9,6 +9,6 @@ public class Ficcao extends Livros
 	public Ficcao(String titulo, int pags, String autor) 
 	{
 		super(titulo, pags, autor);
-		this.genero = "Ficção";
+		this.genero = "FicÃ§Ã£o";
 	}
 }
