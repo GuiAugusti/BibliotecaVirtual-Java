@@ -92,7 +92,7 @@ public class Biblioteca {
 
 		
 		while (!this.intValido(entrada)) {
-			entrada = JOptionPane.showInputDialog(null, "Valor incorreto!\n\nDigite um número inteiro.");
+			entrada = JOptionPane.showInputDialog(null, "Valor incorreto!\n\nDigite um nÃºmero inteiro.");
 		}
 		return Integer.parseInt(entrada);
 	}
@@ -141,7 +141,7 @@ public class Biblioteca {
 		} catch (ClassNotFoundException ex) {
 			ex.printStackTrace();
 		} catch (FileNotFoundException ex) {
-			JOptionPane.showMessageDialog(null,"Arquivo com livros não existe!");
+			JOptionPane.showMessageDialog(null,"Arquivo com livros nÃ£o existe!");
 			ex.printStackTrace();
 		} catch (IOException ex) {
 			ex.printStackTrace();
@@ -165,7 +165,7 @@ public class Biblioteca {
 
 		do {
 			menu = "Controle Biblioteca\n" +
-					"Opções:\n" + 
+					"OpÃ§Ãµes:\n" + 
 					"1. Inserir Livros\n" +
 					"2. Exibir Livros\n" +
 					"3. Limpar Livros\n" +
@@ -178,11 +178,11 @@ public class Biblioteca {
 			switch (opc1) {
 			case 1:
 				menu = "Inserir Livros\n" +
-						"Opções:\n" + 
+						"OpÃ§Ãµes:\n" + 
 						"1. Aventura\n" +
 						"2. Terror\n" + 
-						"3. Ficção\n" + 
-						"4. Comédia";
+						"3. FicÃ§Ã£o\n" + 
+						"4. ComÃ©dia";
 
 				entrada = JOptionPane.showInputDialog (menu + "\n\n");
 				opc2 = this.retornaInteiro(entrada);
